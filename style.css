@@ -38,16 +38,16 @@ p {
 /* for left and Right  */
 .A{
     position: absolute;
-    width: 60vw;
+    width: 60%;
     left: 0;
-    top: 25%;
+
 
   }
   .B {
     position: absolute;
     right: 0;
-    top: 25%;
-    width: 30vw;
+
+    width: 30%;
 
   }
   
