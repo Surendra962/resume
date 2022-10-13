@@ -11,25 +11,34 @@ h1 {
     letter-spacing: .3em;
     padding-top: 1em;
     padding-bottom: 1em;
-    text-align: left;
-
+    font-family: 'Roboto';
 
 }
 
 h2 {
     font-size: 1.5em;
     padding-bottom: 1em;
+    font-family: 'Roboto';
+
+
 }
 
 h3 {
     font-size: 1em;
     padding-bottom: 1em;
+    font-family: 'Epilogue';
+
 }
 
+p {
+    font-family: 'Epilogue'; 
+}
+
+
+/* for left and Right  */
 .A{
     position: absolute;
-    width: 30vw;
-
+    width: 60vw;
     left: 0;
     top: 25%;
 
@@ -38,8 +47,7 @@ h3 {
     position: absolute;
     right: 0;
     top: 25%;
-
-    width: 60vw;
+    width: 30vw;
 
   }
   
