@@ -1,0 +1,634 @@
+body {
+    font-family: 'Ek Mukta';
+    font-size: 12px;
+    max-width: 960px;
+    margin: auto;
+    /*background color*/
+    background-color: rgb(209 213 219);
+}
+
+.cnamedesign {
+    width: 980px;
+    background-image: url(https://static.vecteezy.com/system/resources/thumbnails/002/393/570/small/black-modern-material-header-with-diagonal-silver-lines-banner-for-your-business-abstract-widescreen-background-vector.jpg);
+    background-size: cover;
+    /*round corner*/
+    border-radius: 10px;
+    font-family: 'Ek Mukta';
+    margin-bottom: 15px;
+    margin-top: 15px;
+
+}
+
+.cnamedesign h1 {
+    font-size: 40px;
+    font-weight: 600;
+    color: whitesmoke;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    margin-bottom: 5px;
+    margin-top: 40px;
+    /*spacing between characters*/
+    letter-spacing: 2px;
+}
+.cnamedesign h2 {
+    font-size: 15px;
+    font-weight: 600;
+    color: whitesmoke;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    margin-bottom: 40px;
+
+}
+    
+
+
+/* split content A and B into 60 and 40  */
+
+.content{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: flex-start;
+    align-content: flex-start;
+    width: 1000px;
+    height: auto;
+  
+    /* border: 1px solid black; */
+    margin: 0 auto;
+    padding: 10px;
+    border-radius: 10px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+
+
+    box-shadow:
+    0 2.8px 2.2px rgba(0, 0, 0, 0.034),
+    0 6.7px 5.3px rgba(0, 0, 0, 0.048),
+    0 12.5px 10px rgba(0, 0, 0, 0.06),
+    0 22.3px 17.9px rgba(0, 0, 0, 0.072),
+    0 41.8px 33.4px rgba(0, 0, 0, 0.086),
+    0 100px 80px rgba(0, 0, 0, 0.12)  ;
+  
+    
+    
+
+    
+    /*add image*/
+    background-image: url(https://999wallpaper.com/wp-content/uploads/2021/12/Background-with-Beautiful-and-simple-design.jpg);
+    border-radius: 5px;
+    background-size: cover;
+    background-position: center;
+
+}
+.left{
+    width: 70%;
+    /* border: 1px solid black; */
+
+    margin-bottom: 20px;
+    background-color: rgb(209 213 219);
+    border-radius: 10px;
+    height: auto;
+
+}
+
+.left h2 {
+    color: #360bf5;
+    font-family: 'Ek Mukta'; 
+    font-size: 25px; 
+    line-height: 28px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+
+   
+}
+.left h3 {
+    color: #040400;
+    font-family: 'Ek Mukta'; 
+    font-size: 15px; 
+    line-height: 28px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    /*add a line*/
+    border-bottom: 1px solid #3307f5;
+    
+   
+}
+.left h4 {
+    color: #040400;
+    font-family: 'Ek Mukta'; 
+    font-size: 15px; 
+    line-height: 15px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 0%;
+   
+}
+
+.right{
+    width: 30%;
+    /* border: 1px solid black; */
+    margin-bottom: 20px;
+    background-color: rgb(161, 186, 161);
+    border-radius: 10px;
+    height: auto;
+}
+
+
+
+
+
+
+/* menu */
+nav {
+  margin: 20px auto 30px auto;
+
+  position: relative;
+  width: 600px;
+  height: 100%;
+  background-color: #34495e;
+  border-radius: 8px;
+  font-size: 0;
+  /*add a line*/
+    
+}
+
+nav a {
+    line-height: 50px;
+    height: 100%;
+    font-size: 15px;
+    display: inline-block;
+    position: relative;
+    z-index: 1;
+    text-decoration: none;
+    text-transform: uppercase;
+    text-align: center;
+    color: white;
+    cursor: pointer;
+  }
+
+  a:nth-child(1) {
+    width: 100px;
+  }
+  a:nth-child(2) {
+    width: 110px;
+    }
+    a:nth-child(3) {
+    width: 110px;
+    }
+    a:nth-child(4) {
+    width: 110px;
+    }
+    a:nth-child(5) {
+    width: 110px;
+    }
+
+
+
+
+
+h1 {
+    font-size: 3em;
+    letter-spacing: .3em;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    font-family: 'Helvetica Neue';
+
+}
+
+h2 {
+    color: #040400;
+    font-family: 'Ek Mukta'; 
+    font-size: 20px; 
+    line-height: 28px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+   
+}
+
+h3 {
+    color: #040400;
+    font-family: 'Ek Mukta'; 
+    font-size: 10px; 
+    line-height: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+   
+}
+
+p {
+
+    color: #040400;
+    font-family: 'Ek Mukta';
+    font-size: 14px; 
+    line-height: 14px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-right: 0px;
+    margin-left: 5px;
+    text-align: justify;
+    /*add space between characters*/
+    letter-spacing: 1px;
+    /*line spacing*/
+    line-height: 1.5;
+    
+
+
+}
+
+/* For Progres bar */
+.skills{
+    margin-bottom: 10px;
+    box-shadow: 0 0 10px 0 rgba(0,0,0,0.2);
+    border-radius: 5px;
+    background-color: #fdf6f6;
+    padding: 10px;
+    margin: 10px;
+    width: 87%;
+    margin-left: 5px;
+
+}
+ /*change workexp background color and border on hover*/
+ .skills:hover{
+    
+    border: 3px solid #3307f5;
+    border-radius: 5px;
+    box-shadow: 0 0 10px 0 rgba(0,0,0,0.2);
+    transition: 0.5s;
+    cursor: pointer;
+}
+.skills h1{
+    margin: 0;
+    padding: 0;
+    color: #040400;
+    font-family: 'Source Sans Pro', sans-serif; 
+    font-size: 17px; 
+    line-height: 20px;
+    margin: 0 0 24px;
+    margin-left: 5px;
+    margin-bottom: 10px;
+    /*word space*/
+    letter-spacing: 1px;
+}
+
+
+.skills h2 {
+    font-weight: 400;
+    letter-spacing: 1px;
+    margin-bottom: 40px;
+    margin-bottom: 5px;
+    color: #040400;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 12px;
+
+}
+.progress-bar {
+    background-color: #7e7070;
+    width: 95%;
+    height: 10px;
+    border-radius: 5px;
+ 
+}
+.progress-bar div {
+    height : 10px;
+    border-radius: 5px;
+    
+    width: 0%;
+
+}
+.progress-bar div span {
+    height : 25px;
+    width: 25px;
+    border-radius: 50%;    
+    float: right;
+    margin-top: -10px;
+    margin-right: -10px;
+    color: #161616;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 10px;
+    font-weight: 700;
+    font-style: bold;
+    background-color: rgb(255, 255, 255);
+    
+}
+
+
+
+
+.access {
+    background: #264de4;
+    animation: css 2s linear forwards;    
+}
+.access span {
+    border: 1px solid #264de4;
+}
+@keyframes access {
+
+    100% {
+        width: 80%;
+    }
+}
+
+.python {
+    background: #2dce89;
+    animation: python 2s linear forwards;    
+}
+.python span {
+    border: 1px solid #2dce89;
+}
+@keyframes python {
+
+    100% {
+        width: 70%;
+    }
+}
+
+.mysql {
+    background: #f5365c;
+    animation: mysql 2s linear forwards;    
+}
+.mysql span {
+    border: 1px solid #f5365c;
+}
+@keyframes mysql {
+
+    100% {
+        width: 80%;
+    }
+}
+
+.map {
+    background: #11cdef;
+    animation: map 2s linear forwards;    
+}
+.map span {
+    border: 1px solid #11cdef;
+}
+@keyframes map {
+
+    100% {
+        width: 70%;
+    }
+}
+
+.powerbi {
+    background: #fb6340;
+    animation: powerbi 2s linear forwards;    
+}
+.powerbi span {
+    border: 1px solid #fb6340;
+}
+@keyframes powerbi {
+
+    100% {
+        width: 90%;
+    }
+}
+
+.html {
+    background: #f3a4b5;
+    animation: html 2s linear forwards;    
+}
+.html span {
+    border: 1px solid #f3a4b5;
+}
+@keyframes html {
+
+    100% {
+        width: 90%;
+    }
+}
+
+.tableau {
+    background: #5e72e4;
+    animation: tableau 2s linear forwards;    
+}
+.tableau span {
+    border: 1px solid #5e72e4;
+}
+@keyframes tableau {
+
+    100% {
+        width: 65%;
+    }
+}
+.read {
+    background: #2dce89;
+    animation: read 2s linear forwards;    
+}
+.read span {
+    border: 1px solid #2dce89;
+}
+@keyframes read {
+
+    100% {
+        width: 95%;
+    }
+}
+
+
+/*for animation of words*/
+
+.cont{
+    
+    overflow: hidden;
+    animation: fadeInAnimation 2s linear forwards;
+    /*below margin */
+    margin-bottom: 10px;
+    /*box shadow*/
+    box-shadow: 0 0 10px 0 rgba(0,0,0,0.2);
+    /*border radius*/
+    border-radius: 5px;
+    /*background color*/
+    background-color: #f5f5f5;
+    /*padding*/
+    padding: 10px;
+    /*margin*/
+    margin: 10px;
+    /*font size*/    
+}
+
+@keyframes fadeInAnimation {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+
+}
+
+.taskanimation{
+    overflow: hidden;
+    animation: fadeInAnimation 2s linear forwards;
+}
+
+
+
+
+
+.workexp{
+    border-bottom: 2px solid rgb(6, 134, 10);
+    overflow: hidden;
+    animation: fadeInAnimation 2s linear forwards;
+    margin-bottom: 10px;
+    box-shadow: 0 0 10px 0 rgba(0,0,0,0.2);
+    border-radius: 5px;
+    background-color: #f5f5f5;
+    padding: 10px;
+    margin: 10px;
+
+   
+   
+}
+ /*change workexp background color and border on hover*/
+ .workexp:hover{
+    border: 3px solid #3307f5;
+    border-radius: 5px;
+    box-shadow: 0 0 10px 0 rgba(0,0,0,0.2);
+    
+    cursor: pointer;
+    
+  
+}
+
+.workexp h3{
+    margin: 0;
+    padding: 0;
+    color: #040400;
+    font-family: 'Source Sans Pro', sans-serif; 
+    font-size: 16px; 
+    line-height: 20px;
+    margin: 0 0 5px;
+    margin-left: 5px;
+    margin-bottom: 5px;
+    letter-spacing: .8px;
+}
+
+@keyframes fadeInAnimation {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+
+}
+
+
+.contact{
+
+
+    margin-bottom: 10px;
+    box-shadow: 0 0 10px 0 rgba(0,0,0,0.2);
+    border-radius: 5px;
+    background-color: #fdf6f6;
+    padding: 10px;
+    margin: 10px;
+    width: 87%;
+    margin-left: 5px;
+    margin-right: 5px;
+
+}
+.contact:hover{
+    border: 3px solid #3307f5;
+    border-radius: 5px;
+    box-shadow: 0 0 10px 0 rgba(0,0,0,0.2);
+    
+    cursor: pointer;  
+  
+}
+
+.education{
+    margin-bottom: 10px;
+    box-shadow: 0 0 10px 0 rgba(0,0,0,0.2);
+    border-radius: 5px;
+    background-color: #fdf6f6;
+    padding: 10px;
+    margin: 10px;
+    width: 87%;
+    margin-left: 5px;
+
+}
+.education:hover{
+    border: 3px solid #3307f5;
+    border-radius: 5px;
+    box-shadow: 0 0 10px 0 rgba(0,0,0,0.2);    
+    cursor: pointer;    
+}
+.education h2{
+    margin: 0;
+    padding: 0;
+    color: #040400;
+    font-family: 'Source Sans Pro', sans-serif; 
+    font-size: 17px; 
+    line-height: 20px;
+    margin: 0 0 5px;
+    margin-left: 5px;
+    margin-bottom: 10px;
+    letter-spacing: 1px;
+
+}
+.education h3{
+    margin: 0;
+    padding: 0;
+    color: #040400;
+    font-family: 'Source Sans Pro', sans-serif; 
+    font-size: 12px; 
+    line-height: 12px;
+    margin: 0 0 5px;
+    margin-left: 5px;
+    margin-bottom: 5px;
+    letter-spacing: 1px;
+    /*space between lines*/
+    line-height: 1.5;   
+
+}
+.education h4{
+    margin: 0;
+    padding: 0;
+    color: green;
+    font-family: 'Source Sans Pro', sans-serif; 
+    font-size: 12px; 
+    line-height: 12px;
+    margin: 0 0 5px;
+    margin-left: 5px;
+    margin-bottom: 5px;
+    letter-spacing: 1px;
+    /*space between lines*/
+    line-height: 1.5; 
+    font-style: bold;
+
+
+}
+
+.degree{
+
+    color: #040400;
+    font-family: 'Source Sans Pro', sans-serif; 
+    font-size: 12px; 
+    line-height: 12px;
+    margin: 0 0 5px;
+    margin-left: 5px;
+    margin-bottom: 10px;
+    letter-spacing: 1px;
+    /*add  line*/
+    border-bottom: 1px solid #0c93e2;
+
+}
+.degree:hover{
+    border: 3px solid #3307f5;
+    border-radius: 5px;
+    box-shadow: 0 0 10px 0 rgba(0,0,0,0.2);    
+    cursor: pointer;    
+}
+/* br/ space between lines*/
+br{
+    line-height: .6;
+}

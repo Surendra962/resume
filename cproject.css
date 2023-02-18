@@ -1,0 +1,337 @@
+body {
+    font-family: 'Ek Mukta';
+    font-size: 12px;
+    max-width: 960px;
+    margin: auto;
+    /*background color*/
+    background-color: rgb(209 213 219);
+}
+
+.cnamedesign {
+    width: 980px;
+    background-image: url(https://static.vecteezy.com/system/resources/thumbnails/002/393/570/small/black-modern-material-header-with-diagonal-silver-lines-banner-for-your-business-abstract-widescreen-background-vector.jpg);
+    background-size: cover;
+    /*round corner*/
+    border-radius: 10px;
+    font-family: 'Ek Mukta';
+    margin-bottom: 15px;
+    margin-top: 15px;
+
+}
+
+.cnamedesign h1 {
+    font-size: 40px;
+    font-weight: 600;
+    color: whitesmoke;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    margin-bottom: 5px;
+    margin-top: 40px;
+    /*spacing between characters*/
+    letter-spacing: 2px;
+}
+.cnamedesign h2 {
+    font-size: 15px;
+    font-weight: 600;
+    color: whitesmoke;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    margin-bottom: 40px;
+
+}
+    
+
+
+/* split content A and B into 60 and 40  */
+
+.content{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: flex-start;
+    align-content: flex-start;
+    width: 1000px;
+    height: auto;
+  
+    /* border: 1px solid black; */
+    margin: 0 auto;
+    padding: 10px;
+    border-radius: 10px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+
+
+    box-shadow:
+    0 2.8px 2.2px rgba(0, 0, 0, 0.034),
+    0 6.7px 5.3px rgba(0, 0, 0, 0.048),
+    0 12.5px 10px rgba(0, 0, 0, 0.06),
+    0 22.3px 17.9px rgba(0, 0, 0, 0.072),
+    0 41.8px 33.4px rgba(0, 0, 0, 0.086),
+    0 100px 80px rgba(0, 0, 0, 0.12)  ;
+  
+    
+    
+     
+    background: rgba(243 244 246);
+    border-radius: 5px;
+
+}
+
+/* menu */
+nav {
+    margin: 20px auto 30px auto;
+  
+    position: relative;
+    width: 590px;
+    height: 100%;
+    background-color: #34495e;
+    border-radius: 8px;
+    font-size: 0;
+    /*add a line*/
+      
+  }
+  
+  nav a {
+      line-height: 50px;
+      height: 100%;
+      font-size: 15px;
+      display: inline-block;
+      position: relative;
+      z-index: 1;
+      text-decoration: none;
+      text-transform: uppercase;
+      text-align: center;
+      color: white;
+      cursor: pointer;
+    }
+  
+    a:nth-child(1) {
+      width: 100px;
+    }
+    a:nth-child(2) {
+      width: 110px;
+      }
+      a:nth-child(3) {
+      width: 110px;
+      }
+      a:nth-child(4) {
+      width: 110px;
+      }
+      a:nth-child(5) {
+      width: 110px;
+      }
+
+.projects{
+
+    width: 400px;
+    height: auto;
+    align-items: left;
+    margin-top: auto;
+    margin-left: 20px;
+
+}
+.projects h2{
+    font-size: 20px;
+    font-weight: 600;
+    color: black;
+    margin: 0;
+    padding: 0;
+    text-align: left;
+    margin-bottom: 10px;
+    margin-top: 20px;
+    /*spacing between characters*/
+    letter-spacing: 2px;
+}
+.a:link{
+    font-size: 20px;
+    font-weight: 600;
+    color: black;
+    margin: 0;
+    padding: 0;
+    text-align: left;
+    margin-bottom: 10px;
+    margin-top: 20px;
+    /*spacing between characters*/
+    letter-spacing: 2px;
+}
+.projectsright{
+
+    width: 400px;
+    height: auto;
+    align-items: right;
+    margin-top: auto;
+    margin-right: 20px;
+
+}
+
+.projectsec{
+    height: 400px;
+    width: 400px;
+    margin: 0 auto;
+    padding: 10px;
+    border-radius: 10px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+ 
+
+
+}
+.projectsec h2{
+    font-size: 20px;
+    font-weight: 600;
+    color: black;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    margin-bottom: 0px;
+    margin-top: 20px;
+    /*spacing between characters*/
+    letter-spacing: 2px;
+    align-left: 20px;
+
+}
+
+
+div.project1text {
+
+    font-size: 12px;
+    font-weight: 600;
+    color: black;
+    margin-bottom: 05px;
+    margin-top: 0px;
+    /*spacing between characters*/
+    letter-spacing: 1px;
+    text-align: center;
+    text-align: justify;
+    font-style: "Ek Mukta";
+    /*two lines*/
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    
+  }
+  
+div.project1text:hover {
+    overflow: visible;
+    width: 400px;
+    white-space: normal;
+
+  }
+
+
+
+
+  .header-banner{
+    padding-top:1px;
+    padding-bottom:1px;
+    
+
+    color:#ffffff;
+    font-family:Helvetica, serif;
+    font-weight:100;
+    background-image:url("https://grapesjs.com/img/bg-gr-v.png"), url("https://grapesjs.com/img/work-desk.jpg");
+    background-attachment:scroll, scroll;
+    background-position:left top, center center;
+    background-repeat:repeat-y, no-repeat;
+    background-size:contain, cover;
+
+  }
+
+  #i7ce{
+    height:400px;
+    width: 950px;
+  }
+  .gjs-row{
+    display:flex;
+    justify-content:flex-start;
+    align-items:stretch;
+    flex-wrap:nowrap;
+    padding:10px;
+  }
+  .gjs-cell{
+    min-height:75px;
+    flex-grow:1;
+    flex-basis:100%;
+  }
+  #ip7e{
+    padding:1px;
+    width: 948px;
+    height: 5px;
+    margin: center;
+    text-align: center;
+    background-color: #f6f0f4;
+  }
+  #ijsz{
+    flex-basis:30%;
+
+  }
+  #i5hk{
+    flex-basis:70%;
+  }
+  #i2jh{
+    height:450px;
+  }
+  #iiijq{
+    color:black;
+
+    /* align-items: center; */
+    align-items: center;
+    margin-left: .5%;
+  }
+
+  #isedw{
+    padding:5px;
+    color:#070707;
+    
+    font-size: 12px;
+    /*add space between lines*/
+    line-height: 1.5;
+  
+    letter-spacing: 1px;
+    background-color: #ffffff;
+    border-radius: 5px;
+    /*paragraph type justification*/
+
+    text-align: justify;
+
+
+  }
+  #iletu{
+    width:100%;
+    background-color: rgb(243, 183, 93);
+    /*bold text*/
+    font-weight: 600;
+    /*spacing between characters*/
+    letter-spacing: 1px;
+
+    
+  }
+  #heading_pro{
+    font-size: 20px;
+    font-weight: 600;
+    color: rgb(252, 247, 247);
+
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    /*remove text above space*/
+    margin-bottom: 0px;
+    margin-top: 1px;
+    f
+
+    
+
+
+    /*spacing between characters*/
+    letter-spacing: 2px;
+  }
+
+  @media (max-width: 768px){
+    .gjs-row{
+      flex-wrap:wrap;
+    }
+  }
